@@ -13,7 +13,7 @@ def main():
 
     # Uncomment the below to print the description of a repo
     github_api = Github(seconds_between_requests=0.0, per_page=100)
-    print(get_repo_description(github_api, 'oaknational', 'oak-web-application'))
+    # print(get_repo_description(github_api, 'oaknational', 'oak-web-application'))
     pass
 
 
